@@ -1,8 +1,10 @@
+
 <h1>Restaurante do Bairro</h1> <br>
+
 
 <p>O objetivo da página foi aprender e aplicar funcionalidades básicas de HTML+CSS</p><br>
 <p>Um modelo de landing page para um restaurante fictício chamado "Restaurante do Bairro"</p>
-<p>Para visualizar a página,<a href='https://restaurante-do-bairro-html.netlify.app'> Clique aqui </a> 
+<p>Para visualizar a página,<a href='https://restaurante-do-bairro-html.netlify.app' target='blank'> <strong>Clique aqui.</strong></a> 
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -11,4 +13,6 @@
 
 
 ![Status do projeto](https://img.shields.io/badge/Status-Finalizado-Red)
+
+
 
