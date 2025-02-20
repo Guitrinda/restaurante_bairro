@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+/* Paleta de cores */
+:root{
+    --cor1: #3d5493;
+    --cor2: #7a7db2;
+    --cor3: #b4afd5;
+    --cor4: #ece4fb;
+    --branco: #ffffff;
+    --preto: rgb(45, 45, 45);
+    --preto2: rgb(102, 102, 102);
+
+    --corprojeto1: rgb(172, 10, 10);
+    --corprojeto2: rgb(224, 16, 16);
+    --corprojeto3: rgb(151, 42, 42);
+    --corprojeto4: rgb(170, 170,21);
+    --corprojeto5: rgb(247, 247, 7);
+    --corprojeto6: rgb(255, 136, 0);
+
+}
+
+/* Configurações gerais do site */
+
+*{margin: 0;border: 0;padding: 0;}
+
+html{font-family: Arial, Helvetica, sans-serif;font-size: 1em; scroll-behavior: smooth;}
+
+/* Config de Headlines */
+
+h1{
+    font-size: 3.5em;
+    margin-top: 1%;
+    text-align: center;
+    color: var(--corprojeto1);
+    font-family: "Bad Script", serif;
+    text-shadow: 1px 1px 1px var(--corprojeto6);
+}
+
+h2{ 
+    font-size: 2.3em;
+    color: var(--corprojeto1);
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--corprojeto6);
+    font-style: italic;
+    }
+
+/* Titulos para dispositivos móveis */
+@media(min-width: 320px) and (max-width: 1024px)   {
+
+    h1{
+        font-size: 2.5em;
+        margin-top: 1%;
+        text-align: center;
+        color: var(--corprojeto1);
+        font-family: "Bad Script", serif;
+        text-shadow: 1px 1px 1px var(--corprojeto6);
+    }
+    
+    h2{ 
+        font-size: 1.8em;
+        color: var(--corprojeto1);
+        text-align: center;
+        text-shadow: 1px 1px 1px var(--corprojeto6);
+        font-style: italic;
+        }
+
+}
+
+h3{font-size: 1.5em;}
+h4{font-size: 1em;}
+h1,h2,h3,h4,h5,h6{padding-top: 0.4%;padding-bottom: 0.4%;}
+
+header{
+    background: linear-gradient(var(--corprojeto6), var(--corprojeto1),var(--corprojeto1),var(--corprojeto1) );
+    color:var(--branco);
+    position: fixed;
+    width: 100%;
+    margin: 0;}
+      
+nav{display: block;text-align: center; padding: 5px; font-size: 1.2em; word-spacing: 10px;}
+
+a{text-decoration: none; color: var(--branco); font-weight: bold;}
+
+a:hover{color: var(--cor4);}
+
+footer{ 
+    background: linear-gradient(var(--corprojeto1), var(--corprojeto1),var(--corprojeto1),var(--corprojeto6) );
+    color:var(--branco);
+    text-align: center;
+    font-weight: bold;}        
+
+body{background-color: var(rgb(181, 180, 180));}
+
+main{background-color: var(--branco);
+     padding: 1%;
+     margin: auto;
+     width: 90%;
+     border-radius: 15px;
+     box-shadow: 1px 1px 5px var(--preto2);}
+
+aside{background-color: var(--cor4);
+     padding: 1%;
+     margin: auto;
+     width: 90%;
+     border-radius: 15px;
+     box-shadow: 1px 1px 5px var(--cor1);}   
+     
+/* Configurações de links de produtos */
+
+.menu{
+    color: var(--branco);
+    background-color: var(--corprojeto1);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--corprojeto6);
+    font-size: 1.3em;
+}
+
+/*Configuraçõe de imagens*/
+img{width: 100%; padding-top: 1%;}
+#topo{width: 400px; height: 130px; display: block; margin: auto;}
+
+@media(min-width: 320px) and (max-width: 1024px) {
+    #topo{width: 340px; height: 100px; display: block; margin: auto;}
+}
+
+img{width: 100%; padding-top: 1%;}
+#rodape-img{width: 150px; height: 150px; display: block; margin: auto;}
+
+@media(min-width: 320px) and (max-width: 1024px) {
+    #rodape-img{width: 100px; height: 100px; display: block; margin: auto;}
+}
+
+/* Configurações de botões de ação */
+button{
+    padding: 8px 20px 8px 20px;
+    background-color: var(--preto);
+    color: var(--cor4);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+button:hover{background: var(--cor4); color: var(--preto2);}
+
+/* Configurações de paragrafo */
+
+p{padding-top: 0.8%; padding-bottom: 0.8%;}
+
+/* Configurações de paragrafo para dispositivos moveis */
+
+@media(min-width: 360px) and (max-width: 800px){
+
+    p{padding-top: 4%; padding-bottom: 4%;}
+}
+
+/* Configurações de divs */
+.separador{margin-top: 10%;}
+.separador-conteudo{margin-top: 0.5%;}
+.separador-opcoes{margin-top: 12%;}
+
+/* Configurações de separadores para dispositivos moveis */
+
+@media(min-width: 360px) and (max-width: 1024px){
+
+   .separador{margin-top: 33%;} 
+   .separador-conteudo{margin-top: 0.5%;}  
+   .separador-opcoes{margin-top: 29%;}
+}
+
+/*  Configurações da grade de conteúdo - Grids */
+.grid-conteudo{ background-color: var(--branco); padding: 0.5%;}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1024px;
+    margin: auto;
+    gap: 8px;
+}
+
+.grid div{
+    text-align: center; 
+    background-color: var(--branco);
+    padding: 2px;
+    box-shadow: 1px 1px 1px 2px var(--corprojeto6);
+    border-radius: 20px;
+    
+    }
+
+    /* Configuração WhatsApp */
+     #whats{
+    width: 90px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin: 6em;        
+    }
+
+    @media(min-width: 360px) and (max-width: 1024px){
+       #whats{
+    width: 90;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin: 6em;  
+    margin-right: 6px;      
+    }  
+    }
