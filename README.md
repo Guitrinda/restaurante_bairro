@@ -4,7 +4,7 @@
 
 <p>O objetivo da página foi aprender e aplicar funcionalidades básicas de HTML+CSS</p><br>
 <p>Um modelo de landing page para um restaurante fictício chamado "Restaurante do Bairro"</p>
-<p>Para visualizar a página,<a href='https://restaurante-do-bairro-html.netlify.app' target='blank'> <strong>Clique aqui.</strong></a> 
+<p>Para visualizar a página,<a href='https://restaurante-do-bairro-html.netlify.app' target='_blank'> <strong>Clique aqui.</strong></a> 
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
